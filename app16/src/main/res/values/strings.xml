@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">app16</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="pieces">
+        <item> 1. This is item one </item>
+        <item> 2. This is item two </item>
+        <item> 3. This is item three </item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item> Description for item 1 </item>
+        <item> Description for item 2 </item>
+        <item> Description for item 3 </item>
+    </string-array>
+</resources>

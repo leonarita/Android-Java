@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">app25</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="owner_info">Owner Info</string>
+    <string name="owner_information">Owner Information</string>
+    <string name="textview">TextView</string>
+</resources>

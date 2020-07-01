@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="botao_principal">Clique me</string>
+    <string name="label_principal">Olá mundo!</string>
+</resources>

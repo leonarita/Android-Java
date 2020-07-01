@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplo de notificação"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar uma notificação"
+        android:id="@+id/btn1"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickBtn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast curto!"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickShort"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast Longo!"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickLong"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

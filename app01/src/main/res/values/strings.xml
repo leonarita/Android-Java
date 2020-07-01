@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="adivinhar_os_numeros">Adivinhar os números</string>
+    <string name="message_to_much">O número que pensei é menor</string>
+    <string name="message_to_low">O número que pensei é maior</string>
+    <string name="message_win">Parabéns, você acertou!</string>
+    <string name="message_welcome">Tente Adivinhar o número que estou pensando</string>
+    <string name="adivinhar">Adivinhar</string>
+    <string name="new_game">Novo jogo</string>
+    <string name="confirm_new_game">Tem certeza que deseja iniciar um novo jogo?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+</resources>

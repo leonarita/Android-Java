@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app01" />
+            <option value="$PROJECT_DIR$/app02" />
+            <option value="$PROJECT_DIR$/app03" />
+            <option value="$PROJECT_DIR$/app04" />
+            <option value="$PROJECT_DIR$/app05" />
+            <option value="$PROJECT_DIR$/app06" />
+            <option value="$PROJECT_DIR$/app07" />
+            <option value="$PROJECT_DIR$/app08" />
+            <option value="$PROJECT_DIR$/app09" />
+            <option value="$PROJECT_DIR$/app10" />
+            <option value="$PROJECT_DIR$/app11" />
+            <option value="$PROJECT_DIR$/app12" />
+            <option value="$PROJECT_DIR$/app13" />
+            <option value="$PROJECT_DIR$/app14" />
+            <option value="$PROJECT_DIR$/app15" />
+            <option value="$PROJECT_DIR$/app16" />
+            <option value="$PROJECT_DIR$/app17" />
+            <option value="$PROJECT_DIR$/app18" />
+            <option value="$PROJECT_DIR$/app19" />
+            <option value="$PROJECT_DIR$/app20" />
+            <option value="$PROJECT_DIR$/app21" />
+            <option value="$PROJECT_DIR$/app22" />
+            <option value="$PROJECT_DIR$/app23" />
+            <option value="$PROJECT_DIR$/app24" />
+            <option value="$PROJECT_DIR$/app25" />
+            <option value="$PROJECT_DIR$/app26" />
+            <option value="$PROJECT_DIR$/app27" />
+            <option value="$PROJECT_DIR$/app28" />
+            <option value="$PROJECT_DIR$/app29" />
+            <option value="$PROJECT_DIR$/app30" />
+            <option value="$PROJECT_DIR$/app31" />
+            <option value="$PROJECT_DIR$/app32" />
+            <option value="$PROJECT_DIR$/app33" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

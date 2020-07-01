@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app18</string>
+    <string name="hint_id">Enter ID Number</string>
+    <string name="submit">submit</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="sacit">SA Citizen</string>
+    <string name="permanent">Permanent Resident</string>
+    <string name="dob">Date of Birth: </string>
+    <string name="gender">Gender: </string>
+    <string name="nationality">Nationality: </string>
+    <string name="newline">\n</string>
+</resources>
