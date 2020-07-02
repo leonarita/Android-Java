@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.app10.helpers.DBHelper;
 
@@ -52,20 +53,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void buscarCliente(View view) {
 
-        if (!id.getText().toString().isEmpty()) {
+        try {
+            if (!id.getText().toString().isEmpty()) {
 
-            db = new DBHelper(getBaseContext());
-            banco = db.getReadableDatabase();
+                db = new DBHelper(getBaseContext());
+                banco = db.getReadableDatabase();
 
-            Cursor cursor = banco.rawQuery("SELECT _id, nome, email FROM clientes WHERE _id=" + id.getText().toString(), null);
-            cursor.moveToFirst();
+                Cursor cursor = banco.rawQuery("SELECT _id, nome, email FROM clientes WHERE _id=" + id.getText().toString(), null);
+                cursor.moveToFirst();
 
-            if (!cursor.getString(1).isEmpty()) {
-                nome.setText(cursor.getString(1));
-                email.setText(cursor.getString(2));
+                if (!cursor.getString(1).isEmpty()) {
+                    nome.setText(cursor.getString(1));
+                    email.setText(cursor.getString(2));
+                }
+
+                cursor.close();
             }
-
-            cursor.close();
+        }
+        catch (Exception err) {
+            Toast.makeText(this, "Usuário não existe", Toast.LENGTH_LONG).show();
+            return;
         }
     }
 
@@ -129,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         return true;
     }
+
     public void sortearCliente(View view) {
 
         db = new DBHelper(getBaseContext());
@@ -140,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
         cursor.move(gerador.nextInt(cursor.getCount())+1);
 
-        result.setText(cursor.getString(1).toString().toUpperCase());
+        String t = cursor.getString(1).toString().toUpperCase() + " (" + cursor.getString(2).toString().toUpperCase() + ")";
+        result.setText(t);
     }
 }

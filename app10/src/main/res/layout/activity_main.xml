@@ -43,6 +43,8 @@
         android:layout_marginRight="48dp"
         android:onClick="excluirCliente"
         android:text="Excluir"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
 
@@ -55,6 +57,8 @@
         android:layout_marginTop="32dp"
         android:onClick="inserirCliente"
         android:text="Inserir"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblEmail" />
 
@@ -69,6 +73,8 @@
         android:layout_marginRight="26dp"
         android:onClick="atualizarCliente"
         android:text="Atualizar"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         app:layout_constraintEnd_toStartOf="@+id/btnExcluir"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btnInserir"
@@ -140,6 +146,7 @@
         android:layout_marginRight="40dp"
         android:onClick="buscarCliente"
         android:text="Buscar"
+        android:background="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -152,6 +159,7 @@
         android:layout_marginTop="52dp"
         android:onClick="sortearCliente"
         android:text="Sortear"
+        android:background="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnInserir" />
 
@@ -180,6 +188,8 @@
         android:layout_marginRight="137dp"
         android:layout_marginBottom="60dp"
         android:text="Listar Clientes"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
